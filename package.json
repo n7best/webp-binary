@@ -1,6 +1,6 @@
 {
   "name": "webp-binary",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "webp binary for node",
   "license": "MIT",
   "repository": "n7best/webp-binary",
