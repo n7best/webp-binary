@@ -1,0 +1,45 @@
+{
+  "parser": "babel-eslint",
+  extends: "eslint:recommended",
+  globals: {
+    "Exception": true,
+    "FB": true,
+    "describe": true,
+    "beforeAll": true,
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "performance": true,
+    "XMLHttpRequest": true,
+    "alert": true,
+    "afterAll": true,
+    "it": true,
+  },
+  "env": {
+    "browser": false,
+    "node": true,
+    "es6": true
+  },
+  rules: {
+    "strict": 0,
+    "no-debugger": 1, // disallow use of debugger
+    "no-unused-vars": [
+      1,
+      {
+        "args": "none"
+      }
+    ],
+    "no-control-regex": 0,
+    "no-use-before-define": [
+      "error",
+      {
+        "functions": false, classes: false,
+        "variables": true
+      }
+    ],
+    "no-undef": 2,
+    "no-mixed-spaces-and-tabs": 0, // disallow mixed spaces and tabs for indentation
+    "no-console": 0, // disallow use of console (off by default in the node environment)
+    "comma-dangle": 0,
+  }
+}
