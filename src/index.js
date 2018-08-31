@@ -5,7 +5,7 @@ class WebpLib {
   static Version = '1.0.0';
 
   static GetBinPath = command => {
-    let binPath = path.resolve(__dirname, `../lib/libwebp-${WebpLib.Version}-`);
+    let binPath = path.resolve(require.resolve('webp-binary'), '..', `../lib/libwebp-${WebpLib.Version}-`);
 
     //get webpmux path
     if (process.platform === 'darwin') {
