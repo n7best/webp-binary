@@ -14,7 +14,7 @@
     "node": ">=6"
   },
   "files": [
-    "dist"
+    "dist", "lib"
   ],
   "scripts": {
     "test": "jest",
