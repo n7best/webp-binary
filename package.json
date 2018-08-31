@@ -1,6 +1,6 @@
 {
   "name": "webp-binary",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "webp binary for node",
   "license": "MIT",
   "repository": "n7best/webp-binary",
@@ -14,7 +14,8 @@
     "node": ">=6"
   },
   "files": [
-    "dist", "lib"
+    "dist",
+    "lib"
   ],
   "scripts": {
     "test": "jest",
