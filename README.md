@@ -1,7 +1,7 @@
-# webp-bin
+# webp-binary
 
 webp binary for node;
 
 ```
-npm i webp-bin
+npm i webp-binary
 ```
